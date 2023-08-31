@@ -1,0 +1,41 @@
+.lists ul li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+.lists ul li:hover {
+  background-color: #e4e4e4;
+  transform: translateY(-8px) scale(1.015);
+}
+.lists ul li .left-box {
+  display: flex;
+  align-items: center;
+}
+.lists ul li .left-box input {
+  width: 20px;
+  height: 20px;
+}
+.lists ul li .left-box h5 {
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-left: 10px;
+  color: #020122;
+}
+.lists ul li .right-box span {
+  padding: 15px 18px;
+  border-radius: 50%;
+  color: #bc1030;
+  transition: 0.3s ease;
+  border: 1px solid transparent;
+}
+.lists ul li .right-box span:hover {
+  border: 1px solid #bc1030;
+}

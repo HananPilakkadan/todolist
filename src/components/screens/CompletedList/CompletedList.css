@@ -1,0 +1,35 @@
+.lists.completed ul li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dfdfdf;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+
+.lists.completed ul li .left-box {
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+}
+.lists.completed ul li .left-box input {
+  width: 20px;
+  height: 20px;
+}
+.lists.completed ul li .left-box h5 {
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+.lists.completed ul li .right-box img {
+  opacity: 0.5;
+  transition: 0.3s ease;
+  width: 30px;
+}
+.lists.completed ul li .right-box img:hover {
+  opacity: 1;
+}

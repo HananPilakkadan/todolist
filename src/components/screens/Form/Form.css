@@ -1,0 +1,31 @@
+form {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+form input {
+  padding: 12px 20px;
+  width: 600px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid transparent;
+  margin-right: 40px;
+  transition: 0.3s ease-in;
+}
+form input:focus {
+  border: 1px solid #bc1030;
+}
+form button {
+  cursor: pointer;
+  padding: 12px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background: #747474;
+  color: #ffff;
+  transition: 0.3s ease;
+}
+form button:hover {
+  background: #303030;
+  transform: scale(1.02);
+}
